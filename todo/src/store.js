@@ -10,7 +10,7 @@ export const store = new Vuex.Store({
         name: "Walk dog",
         description: "Have to walk the dog today",
         completed: false,
-        id: 0
+        id: 1
       },
       {
         name: "Do Homework",

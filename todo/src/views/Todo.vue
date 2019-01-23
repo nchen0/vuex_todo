@@ -1,5 +1,10 @@
 <template>
-  <li>{{task.name}}</li>
+  <div>
+    <h1>{{task.name}}</h1>
+    <li>{{task.description}}</li>
+    <li>completed: {{task.completed}}</li>
+    <router-link to="/">Go Back</router-link>
+  </div>
 </template>
 
 <script>
